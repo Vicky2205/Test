@@ -53,6 +53,12 @@ public class WebDriverUtilities
     	driver.switchTo().alert().accept();
     }
     
+    
+    public void scrollbar(WebDriver driver, int x, int y) {
+    	JavascriptExecutor js=(JavascriptExecutor)driver;
+    	js.executeScript("window.scrollBy("+x+","+y+")");
+    }
+    
     public void switchTabs(WebDriver driver)
     {
     	Set<String> child = driver.getWindowHandles();
@@ -61,12 +67,6 @@ public class WebDriverUtilities
     	{
     		driver.switchTo().window(b);
     	}
-    	
-    }
-    
-    public void scrollbar(WebDriver driver, int x, int y) {
-    	JavascriptExecutor js=(JavascriptExecutor)driver;
-    	js.executeScript("window.scrollby("+x+","+y+")");
     	
     }
     

@@ -13,6 +13,14 @@ public class SkillaryLoginPage
     @FindBy(xpath="(//a[text()=' SkillRary Demo APP'])[2]")
     private WebElement skillarydemoappbtn;
     
+    @FindBy(name="q")
+    private WebElement searchforcoursetab;
+    
+    @FindBy(xpath="//input[@value='go']")
+    private WebElement searchbtn;
+    
+    
+    
     public SkillaryLoginPage(WebDriver driver) {
     	PageFactory.initElements(driver,this);
     }
@@ -24,6 +32,14 @@ public class SkillaryLoginPage
     
     public void SkillaryDemoApplication() {
     	skillarydemoappbtn.click();
+    }
+    
+    public void searchforcoursebutton(String name) {
+    	searchforcoursetab.sendKeys(name);
+    }
+    
+    public void searchbutton() {
+    	searchbtn.click();
     }
     
 }
