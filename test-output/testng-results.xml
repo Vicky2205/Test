@@ -14,12 +14,12 @@
       <![CDATA[Hello Selenium,Test1.java]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-05-26T13:48:34 IST" name="Suite" finished-at="2022-05-26T13:48:34 IST" duration-ms="147">
+  <suite started-at="2022-05-26T18:07:45 IST" name="Suite" finished-at="2022-05-26T18:07:45 IST" duration-ms="145">
     <groups>
     </groups>
-    <test started-at="2022-05-26T13:48:34 IST" name="Test" finished-at="2022-05-26T13:48:34 IST" duration-ms="147">
+    <test started-at="2022-05-26T18:07:45 IST" name="Test" finished-at="2022-05-26T18:07:45 IST" duration-ms="145">
       <class name="jenkins.Test4">
-        <test-method signature="tc2()[pri:0, instance:jenkins.Test4@654f0d9c]" started-at="2022-05-26T13:48:34 IST" name="tc2" finished-at="2022-05-26T13:48:34 IST" duration-ms="2" status="PASS">
+        <test-method signature="tc2()[pri:0, instance:jenkins.Test4@21de60b4]" started-at="2022-05-26T18:07:45 IST" name="tc2" finished-at="2022-05-26T18:07:45 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Hello Selenium,Test1.java]]>
@@ -28,7 +28,7 @@
         </test-method> <!-- tc2 -->
       </class> <!-- jenkins.Test4 -->
       <class name="jenkins.Test3">
-        <test-method signature="tc3()[pri:0, instance:jenkins.Test3@64cd705f]" started-at="2022-05-26T13:48:34 IST" name="tc3" finished-at="2022-05-26T13:48:34 IST" duration-ms="1" status="PASS">
+        <test-method signature="tc3()[pri:0, instance:jenkins.Test3@48ae9b55]" started-at="2022-05-26T18:07:45 IST" name="tc3" finished-at="2022-05-26T18:07:45 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Hello java]]>
@@ -37,7 +37,7 @@
         </test-method> <!-- tc3 -->
       </class> <!-- jenkins.Test3 -->
       <class name="jenkins.Test2">
-        <test-method signature="tc4()[pri:0, instance:jenkins.Test2@9225652]" started-at="2022-05-26T13:48:34 IST" name="tc4" finished-at="2022-05-26T13:48:34 IST" duration-ms="2" status="PASS">
+        <test-method signature="tc4()[pri:0, instance:jenkins.Test2@1700915]" started-at="2022-05-26T18:07:45 IST" name="tc4" finished-at="2022-05-26T18:07:45 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Hello SQL]]>
@@ -46,7 +46,7 @@
         </test-method> <!-- tc4 -->
       </class> <!-- jenkins.Test2 -->
       <class name="jenkins.Test1">
-        <test-method signature="tc3()[pri:0, instance:jenkins.Test1@63021689]" started-at="2022-05-26T13:48:34 IST" name="tc3" finished-at="2022-05-26T13:48:34 IST" duration-ms="25" status="PASS">
+        <test-method signature="tc3()[pri:0, instance:jenkins.Test1@13e39c73]" started-at="2022-05-26T18:07:45 IST" name="tc3" finished-at="2022-05-26T18:07:45 IST" duration-ms="24" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Hello phaython]]>
